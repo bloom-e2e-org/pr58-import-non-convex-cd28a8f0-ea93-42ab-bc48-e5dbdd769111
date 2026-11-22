@@ -1,0 +1,7 @@
+name: rook-xn8jqa0e
+on: workflow_dispatch
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo noop
